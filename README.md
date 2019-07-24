@@ -1,8 +1,11 @@
 # MongoPooler
 NodeJS package to manage MongoDB connections
 
-# Usage
+# Installation
+To install this package, navigate to your project root and run:
+```npm install --save mongopooler```
 
+# Usage
 Import the pooler wherever it needs to be used
 ```let MongoPool = require('mongopooler');```
 
