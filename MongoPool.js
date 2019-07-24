@@ -26,22 +26,3 @@ function getInstance(callback){
 MongoPool.getInstance = getInstance;
 
 module.exports = MongoPool;
-
-
-/*
-
-Usage:
-let MongoPool = require('mongopooler');
-
-In Server Init:
-var options = { numberOfRetries : 60, auto_reconnect: true, poolSize : 40, connectTimeoutMS: 30000 };
-var uri = "mongoURI"
-MongoPool.createPool(uri, options);
-
-When accessing DB:
-
-MongoPool.getInstance((client) => {
-  
-  })
-
-*/
