@@ -2,7 +2,7 @@
   "name": "mongopooler",
   "version": "1.0.0",
   "description": "MongoDB middleware to manage connections",
-  "main": "Pool.js",
+  "main": "MongoPool.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
