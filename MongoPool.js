@@ -20,7 +20,7 @@ function getInstance(callback){
   }
   else{
     if(callback && typeof(callback) == 'function')
-      cb(pooled);
+      callback(pooled);
   }
 }
 MongoPool.getInstance = getInstance;

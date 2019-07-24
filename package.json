@@ -1,6 +1,6 @@
 {
   "name": "mongopooler",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "MongoDB middleware to manage connections via a cleaner setup",
   "main": "MongoPool.js",
   "scripts": {
